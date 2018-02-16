@@ -1,4 +1,4 @@
-# contactform
+# Web Contact Form
 
 A web contact form using Node.js/Expresss and Nodemailer.js to send emails
 
