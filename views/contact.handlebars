@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper animated zoomIn">
+      <div class="company-info">
+        <div>
+        <ul id="social">
+        <li><h1>Addresses</h1></li>
+        <hr />
+       
+       <li><b>UK Address</b></li>
+       <li>Phoenix House</li>
+       <li>Pegasus Avenue</li>
+       <li>Phoenix Business Park</li>
+       <li>Paisley</li>
+       <li>PA1 2BH</li>
+       <br />
+       <li><b>US Addresss</b></li>
+       <li>10000 Lincoln Drive East</li>
+       <li>Suite 201</li>
+       <li>Marlon</li>
+       <li>NJ 08053</li>
+       <br />
+       <li><h1>Contact Details</h1></li>
+       <hr />
+       <li>info@beeksfinancialcloud.com</li>
+       <li>support@beeksfinancialcloud.com</li>
+       <li>sales@beeksfinancialcloud.com</li>
+        </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+        {{msg}}
+        <form method="POST" action="send">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Type your full-name here" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="Type in your email address" required>
+          </p>
+  
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5"  placeholder="Your message" required></textarea>
+          </p>
+          <p class="full">
+            <button class="ui blue button">Send Message</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
